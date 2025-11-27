@@ -38,7 +38,9 @@
 
     <build>
         <plugins>
-            <!-- Plugin de ONOS para generar el .oar -->
+            <!-- Plugin de ONOS para generar el .oar (solo disponible en entorno de desarrollo ONOS) -->
+            <!-- Si no está disponible, usar el script crear-oar.sh -->
+            <!--
             <plugin>
                 <groupId>org.onosproject</groupId>
                 <artifactId>onos-app-maven-plugin</artifactId>
@@ -49,6 +51,7 @@
                     <outputDirectory>${project.build.directory}</outputDirectory>
                 </configuration>
             </plugin>
+            -->
             
             <!-- Maven Bundle Plugin para empaquetado OSGi (necesario para packaging bundle) -->
             <plugin>
