@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app name="org.example.flowinstall"
+     origin="Example"
+     version="1.0.0"
+     title="Flow Install"
+     category="SDN"
+     url="http://onosproject.org"
+     readme="ONOS application for installing OpenFlow 1.3 flows">
+</app>

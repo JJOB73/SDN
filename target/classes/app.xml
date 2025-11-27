@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app name="org.example.flowinstall"
+     origin="org.example"
+     category="SDN"
+     version="1.0.0"
+     title="Flow Install Application"
+     url="http://onosproject.org"
+     readme="ONOS application for installing OpenFlow 1.3 flows">
+    <features>
+        <feature name="org.example.flowinstall"
+                 version="1.0.0"
+                 description="Flow Install Application for OpenFlow 1.3"
+                 details="org.example.flowinstall"
+                 state="active">
+            <bundle>mvn:org.example/flowinstall/1.0.0</bundle>
+        </feature>
+    </features>
+</app>
+
