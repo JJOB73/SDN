@@ -50,7 +50,7 @@
                 </configuration>
             </plugin>
             
-            <!-- Maven Bundle Plugin para empaquetado OSGi -->
+            <!-- Maven Bundle Plugin para empaquetado OSGi (necesario para packaging bundle) -->
             <plugin>
                 <groupId>org.apache.felix</groupId>
                 <artifactId>maven-bundle-plugin</artifactId>
